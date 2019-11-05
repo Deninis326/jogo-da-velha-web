@@ -1,0 +1,11 @@
+.play-zone {
+    display: grid;
+    background-color: #DBE9EE;
+    width: 600px;
+    height: 600px;
+    border: 5px solid #4E4B5C;
+    border-radius: 25px;
+    margin: 10px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}

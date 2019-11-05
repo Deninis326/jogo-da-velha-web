@@ -1,0 +1,27 @@
+.position {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    font-size: 8em;
+    text-align: center;
+}
+
+.position-corner-top-left {
+    border-top-left-radius: 20px;
+}
+
+.position-corner-top-right {
+    border-top-right-radius: 20px;
+}
+
+.position-corner-bottom-left {
+    border-bottom-left-radius: 20px;
+}
+
+.position-corner-bottom-right {
+    border-bottom-right-radius: 20px;
+}
+
+.position:hover {
+    background-color: rgb(184, 196, 201);
+}

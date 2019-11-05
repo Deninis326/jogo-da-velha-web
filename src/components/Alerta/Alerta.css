@@ -1,0 +1,15 @@
+.alerta {
+    position: absolute;
+    left: calc(50vw - 200px);
+    top: calc(50vh - 100px);
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
