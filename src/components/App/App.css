@@ -1,8 +1,12 @@
 .app {
-    background-color: #4F6D7A;
+    background-color: #31493C;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.titulo{
+    color: #fff;
 }

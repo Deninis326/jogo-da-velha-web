@@ -3,11 +3,11 @@ import './Alerta.css'
 
 import Button from '../Button'
 
-const Alerta = ({texto,display,restart}) => {
+const Alerta = ({ texto, display, reStart }) => {
     return (
-        <div className='alerta' style={{display:display}}>
+        <div className='alerta' style={{ display: display }}>
             <div>{texto}</div>
-            <Button label={'restart'} action={restart}/>
+            <Button label={'restart'} action={reStart} />
         </div>
     )
 }
